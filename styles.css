@@ -65,6 +65,11 @@ img {
     writing-mode:vertical-lr;
 }
 
+.recipe {
+    display: flex;
+    flex-direction: column;
+}
+
 .recipe-photo {
     margin-bottom: 1.5rem;
 }
@@ -248,4 +253,69 @@ img {
 
 .footer strong{
     text-decoration: underline;
+}
+
+@media (min-width: 1000px) {
+    .container{
+        margin: 3.25rem 14rem;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .header h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    .header p{
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: .875remx;
+        line-height: 1.1rem;
+        color: var(--secondary-color);
+        width: 80%;
+    }
+
+    .ingredients-wrapper h1 {
+        font-size: 1.5rem;
+    }
+    
+    .recipe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .recipe-abstract {
+        min-width: 150px;
+        gap: 40px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        padding: 45px 20px;
+    }
+
+    .recipe-top{
+        order: 2;
+    }
+    
+    .recipe-bottom{
+        order: 1;
+        max-width: 70%;
+    }
+
+    .time-wrapper{
+        flex-direction: column;
+        gap: 40px
+    }
+
 }
