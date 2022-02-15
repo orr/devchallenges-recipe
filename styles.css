@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.87rem;
+    color: var(--footer-color);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer strong{
+    text-decoration: underline;
+}
