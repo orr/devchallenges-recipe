@@ -1,17 +1,68 @@
+:root {
+    --bg-color: #FAFAFA;
+    --primary-color: #000;
+    --secondary-color: #4F4F4F;
+    --tertiary-color: #C4C4C4;
+}
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--bg-color);
+}
 
+img {
+    width: 100%;
+}
 
+.container{
+    margin: 2rem 1rem;
+    
+}
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
 
+.header h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
 
+.header p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: .75remx;
+    line-height: 0.93rem;
+    color: var(--secondary-color);
+    width: 80%;
+}
 
+.p-wrapper{
+    display: flex;
+    gap: .5rem;
+}
 
+.p-wrapper span{
+    color: var(--tertiary-color);
+}
 
-
-
-
-
+.recipe-photo img {
+    border-radius: .75rem;
+}
 
 
 

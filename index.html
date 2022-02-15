@@ -4,17 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
   <link rel="stylesheet" href="styles.css">
   <title>Recipe</title>
 </head>
 <body>
-  <header class=""header>
+  <div class="container">
+  <header class="header">
     <h1>Classic Cheesecake Recipe</h1>
-    <p>Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
+    <div class="p-wrapper">
+      <span><i class="material-icons">menu</i></span>
+      <p>Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
+    </div>
   </header>
   <main>
     <section class="recipe-photo">
-      <img src="" alt="">
+      <img src="photo1.png" alt="">
     </section>
     <section class="recipe">
       <div class="recipe-abstract">
@@ -92,8 +102,14 @@
           <li>Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the refrigerator for up to 5 days.</li>
         </ol>
       </section>
+      <section class="source">
+        <p>Source: https://sallysbakingaddiction.com/classic-cheesecake/ </p>
+      </section>
     </section>
   </main>
-
+  <footer>
+    <footer class="footer">created by <strong>orr</strong> - devChallenges.io</footer>
+  </footer>
+</div>
 </body>
 </html>
